@@ -1,0 +1,33 @@
+{
+	"name" : "daftar-video",
+	"list": [
+		{
+			"judul": "background",
+			"tautan": "/background.mp4"
+		},
+		{
+			"judul": "pembukaan",
+			"tautan": "https://drive.google.com/uc?export=download&id=1a3Bdf5K2cOyj0qWKyORDZZcaY_ygNZK5"
+		},
+		{
+			"judul": "sinopsis",
+			"tautan": ""
+		},
+		{
+			"judul": "kustom",
+			"tautan": ""
+		},
+		{
+			"judul": "properti",
+			"tautan": ""
+		},
+		{
+			"judul": "tutorial",
+			"tautan": []
+		},
+		{
+			"judul": "tari",
+			"tautan": ""
+		}
+	]
+}
