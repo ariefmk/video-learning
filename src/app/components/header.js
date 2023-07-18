@@ -15,7 +15,8 @@ export default function Header() {
 			<div className='nav'>
 				<ul className='flex font-semibold text-xl gap-x-5'>
 					<li><Link href='/'>Beranda</Link></li>
-					<li><Link href='tentang'>Tentang</Link></li>
+					<li><Link href='/menu'>Menu</Link></li>
+					<li><Link href='/tentang'>Tentang</Link></li>
 				</ul>
 			</div>
 		</header>

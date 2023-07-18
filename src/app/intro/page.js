@@ -8,11 +8,9 @@ import { useRouter } from 'next/navigation'
 
 export default function Intro() {
 	return (
-		<>
-			<Header />
-			<main className='my-10 flex items-center justify-center'>
-				<VideoContainer src={dataVideo.list[1].tautan} addControls={true} addClass={'rounded-xl'} autoPlay={true} />
-			</main>
-		</>
+		<main className='mt-20 flex items-center justify-center flex-col gap-y-4'>
+			<h1 className='text-3xl font-semibold'>PEMBUKAAN</h1>
+			<VideoContainer src={dataVideo.list[1].tautan} addControls={true} addClass={'rounded-xl'} autoPlay={true} />
+		</main>
 	)
 }
