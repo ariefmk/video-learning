@@ -73,53 +73,6 @@ export default function VideoContainer({ src, addClass, addControls, autoPlay })
 					<source src={src} type='video/mp4' />
 					Browser tidak mendukung
 				</video>
-				{/*
-				<div className='controls'>
-					<button className='play-pause-btn' onClick={handlePlayPause}>
-						{isPlaying? 'Pause' : 'Play'}
-					</button>
-
-					<div className='progress-bar' onClick={handleSeek}>
-						<div className='progress' style={{ width: `${progress}%` }} />
-					</div>
-				</div>
-				<style jsx>{`
-					.video-container {
-						position: relative;
-					}
-
-					.controls {
-						position: absolute;
-						bottom: 10px;
-						left: 0;
-						right: 0;
-						display: flex;
-						justify-content: center;
-						align-items: center;
-					}
-
-					.play-pause-btn {
-						background-color: #fff;
-						border: none;
-						padding: 5px 10px;
-						margin-right: 10px;
-						cursor: pointer;
-						color: #000;
-					}
-
-					.progress-bar {
-						width: 300px;
-						height: 5px;
-						background-color: #ccc;
-						cursor: pointer;
-					}
-
-					.progress {
-						height: 100%;
-						background-color: #ff0000;
-					}
-				`}</style>
-				*/}
 			</div>
 		</div>
 	)

@@ -24,8 +24,19 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+		min-height: 100%;
+		
 }
 
+.background-image {
+	background-image: url('/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: .3;
+	overflow: hidden;
+	z-index: -1;
+}
 .video-background {
 	position: fixed;
 	top: 0;

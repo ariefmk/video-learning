@@ -23,7 +23,18 @@
 		},
 		{
 			"judul": "tutorial",
-			"tautan": []
+			"ragam": [
+				{
+					"id": "1",
+					"judul": "RAGAM 1",
+					"tautan": "/background.mp4"
+				},
+				{
+					"id": "2",
+					"judul": "RAGAM 2",
+					"tautan": "/background.mp4"
+				}
+			]
 		},
 		{
 			"judul": "tari",
