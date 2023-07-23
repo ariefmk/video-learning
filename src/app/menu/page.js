@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-		<main className='mt-20 md:mt-30 flex items-center justify-center flex-col gap-y-4'>
+		<main className='mt-5 md:mt-20 flex items-center justify-center flex-col gap-y-4'>
 			<h1 className='text-2xl font-semibold'>MENU</h1>
 			<div className='menu-list flex items-center justify-center text-center font-semibold text-xl'>
 				<ul className='flex flex-col gap-y-4 '>

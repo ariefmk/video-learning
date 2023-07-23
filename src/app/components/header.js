@@ -13,10 +13,10 @@ export default function Header() {
 				</div>
 			</div>
 			<div className='nav'>
-				<ul className='flex md:flex-row flex-col font-semibold text-xl gap-x-5'>
-					<li><Link href='/'>Beranda</Link></li>
-					<li><Link href='/menu'>Menu</Link></li>
-					<li><Link href='/tentang'>Tentang</Link></li>
+				<ul className='flex md:flex-row flex-col font-semibold text-xl gap-x-5 gap-y-2'>
+					<li className='bg-pink2 rounded-xl w-28 text-center p-1'><Link className='' href='/'>Beranda</Link></li>
+					<li className='bg-pink2 rounded-xl w-28 text-center p-1'><Link className='' href='/menu'>Menu</Link></li>
+					<li className='bg-pink2 rounded-xl w-28 text-center p-1'><Link className='' href='/tentang'>Tentang</Link></li>
 				</ul>
 			</div>
 		</header>

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-export default function VideoContainer({ src, addClass, addControls, autoPlay }) {
+export default function VideoContainer({ id, src, addClass, addControls, autoPlay }) {
 	const videoRef = useRef(null);
 	const router = useRouter();
 	const [isVideoEnded, setIsVideoEnded] = useState(false);
@@ -68,8 +68,8 @@ export default function VideoContainer({ src, addClass, addControls, autoPlay })
 
 	return (
 		<div>
-			<div className='video-container'>
-				<video ref={videoRef} className={`${addClass} ${isVideoEnded ? 'fade-out' : ''}`} width={900} height={600} controls={addControls}>
+			<div className='video-container flex justify-center'>
+				<video id={id} ref={videoRef} className={`${addClass} ${isVideoEnded ? 'fade-out' : ''} w-72 md:w-8/12`} controls={addControls}>
 					<source src={src} type='video/mp4' />
 					Browser tidak mendukung
 				</video>

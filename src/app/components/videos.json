@@ -6,39 +6,28 @@
 			"tautan": "/background.mp4"
 		},
 		{
+			"judul": "background",
+			"tautan": "https://drive.google.com/uc?export=download&id="
+		},
+		{
 			"judul": "pembukaan",
-			"tautan": "https://drive.google.com/uc?export=download&id=1a3Bdf5K2cOyj0qWKyORDZZcaY_ygNZK5"
+			"tautan": "https://drive.google.com/uc?export=download&id=1Wm46pkP5OiujhbCR1giOfwH22Ohw0RI-"
 		},
 		{
 			"judul": "sinopsis",
-			"tautan": ""
+			"tautan": "https://drive.google.com/uc?export=download&id=1lFYM3UW4wxb0cZ6_PS7xiB24m8Etao7r"
 		},
 		{
 			"judul": "kustom",
-			"tautan": ""
-		},
-		{
-			"judul": "properti",
-			"tautan": ""
+			"tautan": "https://drive.google.com/uc?export=download&id=1HKDKAYIiydUU1gtDnqc6AYTBlnIVluyj"
 		},
 		{
 			"judul": "tutorial",
-			"ragam": [
-				{
-					"id": "1",
-					"judul": "RAGAM 1",
-					"tautan": "/background.mp4"
-				},
-				{
-					"id": "2",
-					"judul": "RAGAM 2",
-					"tautan": "/background.mp4"
-				}
-			]
+			"tautan": "https://drive.google.com/uc?export=download&id=1TBtenA67lFUsVWb11T8NBWkMlmYwTTtp"
 		},
 		{
 			"judul": "tari",
-			"tautan": ""
+			"tautan": "https://drive.google.com/uc?export=download&id=1T1xLuNoJXEXzml6tbLZlg4CC-s82nhl7"
 		}
 	]
 }

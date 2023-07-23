@@ -6,9 +6,9 @@ export default function Pembukaan() {
 	return (
 		<>
 			<ImageBackground />
-			<main className='mt-20 flex items-center justify-center flex-col gap-y-4'>
+			<main className='mt-5 md:mt-20 flex items-center justify-center flex-col gap-y-4'>
 				<h1 className='text-2xl font-semibold'>PEMBUKAAN</h1>
-				<VideoContainer src={dataVideo.list[0].tautan} addControls={true} addClass={'rounded-xl'} autoPlay={true} />
+				<VideoContainer src={dataVideo.list[2].tautan} addControls={true} addClass={'rounded-xl'} autoPlay={true} />
 			</main>
 		</>
 	)
