@@ -10,6 +10,7 @@ export default function Home() {
 					<li className='w-60 bg-pink h-20 flex items-center rounded-2xl'><Link className='p-4 h-full w-full flex items-center justify-center' href='menu/kostum'>KOSTUM DAN PROPERTI</Link></li>
 					<li className='w-60 bg-pink h-20 flex items-center rounded-2xl'><Link className='p-4 h-full w-full flex items-center justify-center' href='menu/tutorial'>TUTORIAL</Link></li>
 					<li className='w-60 bg-pink h-20 flex items-center rounded-2xl'><Link className='p-4 h-full w-full flex items-center justify-center' href='menu/tari'>PERSEMBAHAN TARI MANARAI</Link></li>
+					<li className='w-60 bg-pink h-20 flex items-center rounded-2xl'><Link className='p-4 h-full w-full flex items-center justify-center' href='menu/festival'>PENAMPILAN FESTIVAL</Link></li>
 				</ul>
 			</div>
 		</main>

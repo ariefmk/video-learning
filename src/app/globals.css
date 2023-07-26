@@ -58,3 +58,10 @@ body {
 	opacity: 0;
 	transition: opacity 1s ease-in;
 }
+
+@media (min-width: 930px) {
+	#penampilan {
+		width: 850px;
+		height: 480px;
+	}
+}
